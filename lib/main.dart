@@ -10,8 +10,11 @@ class TicTacToeApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(initialRoute: GameScreen.routeName, routes: {
-      GameScreen.routeName: (context) => const GameScreen(),
-    });
+    return MaterialApp(
+      initialRoute: GameScreen.routeName,
+      routes: {
+        GameScreen.routeName: (context) => const GameScreen(),
+      },
+    );
   }
 }
